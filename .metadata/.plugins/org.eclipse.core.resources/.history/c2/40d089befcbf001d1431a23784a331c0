@@ -1,0 +1,5 @@
+package com.cashrich.serviceimpl;
+
+public class UserLoginServiceImpl {
+
+}

@@ -1,0 +1,5 @@
+package com.cashrich.entity;
+
+public class UserLogin {
+
+}

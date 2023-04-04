@@ -1,0 +1,5 @@
+package com.cashrich.dao;
+
+public interface UserRepository {
+
+}

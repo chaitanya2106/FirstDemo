@@ -1,0 +1,18 @@
+package com.questionpro.serviceimpl;
+
+import java.util.List;
+import java.util.Map;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.questionpro.dao.CommentsRepository;
+import com.questionpro.service.CommentsService;
+
+public class CommentsServiceImpl implements CommentsService{
+	@Autowired
+	private CommentsRepository commentsRepository;
+	public List<Map<String, Object>> getComments(int storyId) {
+		// TODO Auto-generated method stub
+		return commentsRepository.getComments(storyId);
+	}
+}

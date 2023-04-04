@@ -1,0 +1,22 @@
+package com.questionpro.service;
+
+import java.util.List;
+import java.util.Map;
+
+import com.questionpro.entity.TopStory;
+
+public interface TopStoryService {
+	//public List<TopStory> getTopStories();
+
+	//List<TopStory> getTopStories1();
+
+	List<List<TopStory>> getTopStories();
+	
+	//public Iterable<TopStory> getPastStories();
+	
+	 public List<Map<String, Object>> getComments(int storyId);
+
+	//Iterable<TopStory> getPastStories();
+
+	public Iterable<TopStory> getPastStories(); 
+}
